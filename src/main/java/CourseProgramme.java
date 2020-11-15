@@ -11,14 +11,14 @@
 import org.joda.time.*;
 import java.util.ArrayList;
 public class CourseProgramme {
-    private LocalDate start;
-    private LocalDate end;
+    private DateTime start;
+    private DateTime end;
     private String courseName;
     private ArrayList<Student> courseStudents=new ArrayList<Student>();
     private ArrayList<Module> courseModules=new ArrayList<Module>();
     
     
-    public CourseProgramme(LocalDate start,LocalDate end, String courseName){
+    public CourseProgramme(DateTime start,DateTime end, String courseName){
         this.start=start;
         this.end=end;
         this.courseName=courseName;
@@ -28,11 +28,11 @@ public class CourseProgramme {
         return courseName;
     }
     
-    private LocalDate getStart(){
+    private DateTime getStart(){
         return start;
     }
     
-    private LocalDate getEnd(){
+    private DateTime getEnd(){
         return end;
     }
     //append to arrays
