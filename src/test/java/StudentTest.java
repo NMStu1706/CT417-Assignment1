@@ -128,7 +128,7 @@ public class StudentTest {
     public void testToString() {
         System.out.println("toString");
         Student instance = new Student("John Jacobs",20,"ECE","CT-417");
-        String expResult = "*****\n Student Name: John Jacobs\nUsername: John Jacobs20\n*****";
+        String expResult = "*****\nStudent Name: John Jacobs\nUsername: John Jacobs20\n*****";
         String result = instance.toString();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
