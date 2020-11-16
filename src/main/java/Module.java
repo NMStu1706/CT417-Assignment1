@@ -39,7 +39,9 @@ public class Module {
     
     @Override
     public String toString(){
-        return "*****\n Module Name: "+moduleName+"\nModule ID: "+moduleId+"\n*****";
+        String output = "*****\nModule Name: "+moduleName+"\nModule ID: "+moduleId+"\n*****\n"
+                + "Contains students:\n"+moduleStudents+"\nIn courses: "+courses;
+        return output;
     }
     
 }

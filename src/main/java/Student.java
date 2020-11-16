@@ -50,6 +50,6 @@ public class Student {
     
     @Override
     public String toString(){
-        return "*****\n Student Name: "+name+"\nUsername: "+username+"\n*****";
+        return "*****\nStudent Name: "+name+"\nUsername: "+username+"\n*****";
     }
 }
