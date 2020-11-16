@@ -16,8 +16,8 @@ public class CourseProgramme {
     private int countS=0;
     private DateTime end;
     private String courseName;
-    private String modNames;
-    private String studentNames;
+    private String modNames="";
+    private String studentNames="";
     private ArrayList<Student> courseStudents=new ArrayList<Student>();
     private ArrayList<Module> courseModules=new ArrayList<Module>();
     
