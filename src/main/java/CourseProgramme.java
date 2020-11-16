@@ -24,31 +24,31 @@ public class CourseProgramme {
         this.courseName=courseName;
     }
     //getters
-    private String getCourseName(){
+    public String getCourseName(){
         return courseName;
     }
     
-    private DateTime getStart(){
+    public DateTime getStart(){
         return start;
     }
     
-    private DateTime getEnd(){
+    public DateTime getEnd(){
         return end;
     }
     //append to arrays
-    private void addModule(Module m){
+    public void addModule(Module m){
         courseModules.add(m);
     }
     
-    private void addStudent(Student s){
+    public void addStudent(Student s){
         courseStudents.add(s);
     }
     //get arrays
-    private ArrayList getModules(){
+    public ArrayList getModules(){
         return courseModules;
     }
     
-    private ArrayList getStudents(){
+    public ArrayList getStudents(){
         return courseStudents;
     }
     
